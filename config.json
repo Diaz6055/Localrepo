@@ -1,0 +1,32 @@
+{
+  "business_name": "Phoenix AC & Heating Experts",
+  "phone_number": "(602) 773-5522",
+  "phone_raw": "+16027735522",
+  "email": "info@phoenixacexperts.com",
+  "address": "18631 N 19th Ave #158",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85027",
+  "year_founded": "2002",
+  "years_experience": "23",
+  "tuneup_price": "$89",
+  "primary_color": "#ff6a2c",
+  "primary_deep": "#e84f12",
+  "primary_soft": "#fff1ea",
+  "cool_color": "#1cb6c9",
+  "cool_deep": "#0e8a9a",
+  "service_areas": [
+    { "city": "Phoenix", "zip": "85027 · 85021 · 85051" },
+    { "city": "Scottsdale", "zip": "85254 · 85258 · 85260" },
+    { "city": "Glendale", "zip": "85308 · 85310 · 85306" },
+    { "city": "Mesa", "zip": "85201 · 85204 · 85215" },
+    { "city": "Tempe", "zip": "85281 · 85283 · 85284" },
+    { "city": "Chandler", "zip": "85224 · 85225 · 85249" },
+    { "city": "Gilbert", "zip": "85233 · 85234 · 85295" },
+    { "city": "Peoria", "zip": "85345 · 85381 · 85383" },
+    { "city": "Surprise", "zip": "85374 · 85378 · 85388" },
+    { "city": "Avondale", "zip": "85323 · 85392" },
+    { "city": "Goodyear", "zip": "85338 · 85395" },
+    { "city": "Sun City", "zip": "85351 · 85373" }
+  ]
+}

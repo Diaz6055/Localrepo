@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Thank You — We'll Be In Touch | @@business_name</title>
+<meta name="description" content="Thanks for contacting @@business_name. A @@city-based dispatcher will reach out shortly. For urgent help, call @@phone_number anytime.">
+<meta name="robots" content="noindex, follow">
+@@include('head.html')
+</head>
+<body>
+
+@@include('header.html')
+
+<section class="section" style="min-height:70vh;display:grid;place-items:center;padding-top:80px;">
+  <div class="container">
+    <div class="thanks-card reveal">
+      <div class="thanks-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="20 6 9 17 4 12"/>
+        </svg>
+      </div>
+      <span class="eyebrow"><span class="dot"></span>Request Received</span>
+      <h1 style="font-size:clamp(2rem,4vw,2.8rem);">Thanks — your message is on its way to our dispatcher.</h1>
+      <p class="lead" style="max-width:54ch;margin:0 auto 32px;">A @@city-based dispatcher will reach out within one business hour during normal hours, or first thing in the morning if you submitted overnight. Need help right now? Give us a call — we answer 24/7.</p>
+
+      <div class="hero-actions" style="justify-content:center;">
+        <a href="tel:@@phone_raw" class="btn btn-primary btn-lg">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72(12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Call @@phone_number
+        </a>
+        <a href="@@root_path/index.html" class="btn btn-ghost btn-lg">Back to home</a>
+      </div>
+
+      <div style="margin-top:48px;padding-top:32px;border-top:1px solid var(--line);text-align:left;">
+        <h3 style="text-align:center;margin-bottom:24px;font-size:1.1rem;">While you wait — here's what happens next</h3>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;text-align:left;">
+          <div style="padding:16px;background:var(--bg-soft);border-radius:14px;">
+            <strong style="font-family:var(--font-display);font-size:13px;color:var(--primary-deep);letter-spacing:.08em;">STEP 1</strong>
+            <p style="margin:8px 0 0;font-size:14px;color:var(--ink);font-weight:500;">A real person reviews your request and pulls together the right resources for your job.</p>
+          </div>
+          <div style="padding:16px;background:var(--bg-soft);border-radius:14px;">
+            <strong style="font-family:var(--font-display);font-size:13px;color:var(--primary-deep);letter-spacing:.08em;">STEP 2</strong>
+            <p style="margin:8px 0 0;font-size:14px;color:var(--ink);font-weight:500;">We call you back to confirm details and lock in a service window — often the same day.</p>
+          </div>
+          <div style="padding:16px;background:var(--bg-soft);border-radius:14px;">
+            <strong style="font-family:var(--font-display);font-size:13px;color:var(--primary-deep);letter-spacing:.08em;">STEP 3</strong>
+            <p style="margin:8px 0 0;font-size:14px;color:var(--ink);font-weight:500;">A clean, uniformed technician arrives on time, diagnoses, and quotes you upfront.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+@@include('footer.html')
+
+</body>
+</html>
