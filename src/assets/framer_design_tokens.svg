@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1800" width="1400" height="1800" style="background:#faf8f3; font-family:'Plus Jakarta Sans', 'Inter', sans-serif;">
+  <!-- Background Grid lines for Framer -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(11,18,32,0.02)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grid)" />
+
+  <!-- SHEET HEADER -->
+  <g transform="translate(80, 80)">
+    <rect width="40" height="40" rx="10" fill="url(#brandGrad)" />
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff6a2c" />
+      <stop offset="100%" stop-color="#f5b83d" />
+    </linearGradient>
+    <text x="56" y="26" font-size="20" font-weight="800" fill="#0b1220">Phoenix AC &amp; Heating Experts</text>
+    <text x="56" y="42" font-size="12" font-weight="500" fill="#5a6478" letter-spacing="0.05em">FRAMER DESIGN TOKENS &amp; COMPONENTS SHEET</text>
+    <line x1="0" y1="70" x2="1240" y2="70" stroke="rgba(11,18,32,0.08)" stroke-width="2" />
+  </g>
+
+  <!-- SECTION 1: COLOR PALETTE TOKENS -->
+  <g transform="translate(80, 200)">
+    <text x="0" y="20" font-size="18" font-weight="700" fill="#0b1220">1. Theme Color Tokens (Hex Mapping)</text>
+    <text x="0" y="40" font-size="13" font-weight="400" fill="#5a6478">Use these exact colors for solid fills and gradients in Framer.</text>
+    
+    <!-- Sunset Orange -->
+    <g transform="translate(0, 70)">
+      <rect width="150" height="100" rx="12" fill="#ff6a2c" />
+      <text x="0" y="125" font-size="14" font-weight="700" fill="#0b1220">Primary Sunset</text>
+      <text x="0" y="142" font-size="12" font-weight="500" fill="#5a6478">#ff6a2c</text>
+    </g>
+
+    <!-- Deep Orange -->
+    <g transform="translate(180, 70)">
+      <rect width="150" height="100" rx="12" fill="#e84f12" />
+      <text x="0" y="125" font-size="14" font-weight="700" fill="#0b1220">Primary Deep</text>
+      <text x="0" y="142" font-size="12" font-weight="500" fill="#5a6478">#e84f12</text>
+    </g>
+
+    <!-- Primary Soft -->
+    <g transform="translate(360, 70)">
+      <rect width="150" height="100" rx="12" fill="#fff1ea" stroke="#ff6a2c" stroke-width="1" />
+      <text x="0" y="125" font-size="14" font-weight="700" fill="#0b1220">Primary Soft</text>
+      <text x="0" y="142" font-size="12" font-weight="500" fill="#5a6478">#fff1ea</text>
+    </g>
+
+    <!-- Cool Teal -->
+    <g transform="translate(540, 70)">
+      <rect width="150" height="100" rx="12" fill="#1cb6c9" />
+      <text x="0" y="125" font-size="14" font-weight="700" fill="#0b1220">Cool Teal</text>
+      <text x="0" y="142" font-size="12" font-weight="500" fill="#5a6478">#1cb6c9</text>
+    </g>
+
+    <!-- Dark Ink -->
+    <g transform="translate(720, 70)">
+      <rect width="150" height="100" rx="12" fill="#0b1220" />
+      <text x="0" y="125" font-size="14" font-weight="700" fill="#0b1220">Ink Slate</text>
+      <text x="0" y="142" font-size="12" font-weight="500" fill="#5a6478">#0b1220</text>
+    </g>
+
+    <!-- Muted Grey -->
+    <g transform="translate(900, 70)">
+      <rect width="150" height="100" rx="12" fill="#5a6478" />
+      <text x="0" y="125" font-size="14" font-weight="700" fill="#0b1220">Muted Slate</text>
+      <text x="0" y="142" font-size="12" font-weight="500" fill="#5a6478">#5a6478</text>
+    </g>
+
+    <!-- Background Soft -->
+    <g transform="translate(1080, 70)">
+      <rect width="150" height="100" rx="12" fill="#f3efe6" stroke="rgba(11,18,32,0.1)" stroke-width="1" />
+      <text x="0" y="125" font-size="14" font-weight="700" fill="#0b1220">Soft Cream</text>
+      <text x="0" y="142" font-size="12" font-weight="500" fill="#5a6478">#f3efe6</text>
+    </g>
+  </g>
+
+  <!-- SECTION 2: TYPOGRAPHY SYSTEM TOKENS -->
+  <g transform="translate(80, 430)">
+    <text x="0" y="20" font-size="18" font-weight="700" fill="#0b1220">2. Typography Styles</text>
+    <text x="0" y="40" font-size="13" font-weight="400" fill="#5a6478">Set these text sizes, weights, and letter-spacings in Framer.</text>
+
+    <!-- H1 Headline -->
+    <g transform="translate(0, 70)">
+      <text x="0" y="30" font-size="44" font-weight="800" fill="#0b1220" letter-spacing="-0.035em">H1 Headline: 44px / ExtraBold</text>
+      <text x="0" y="52" font-size="12" font-family="'Inter'" fill="#5a6478">Font: Plus Jakarta Sans | Weight: 800 (ExtraBold) | Letter-spacing: -3.5%</text>
+    </g>
+
+    <!-- H2 Headline -->
+    <g transform="translate(0, 150)">
+      <text x="0" y="25" font-size="30" font-weight="700" fill="#0b1220" letter-spacing="-0.03em">H2 Sub-section Title: 30px / Bold</text>
+      <text x="0" y="44" font-size="12" font-family="'Inter'" fill="#5a6478">Font: Plus Jakarta Sans | Weight: 700 (Bold) | Letter-spacing: -3%</text>
+    </g>
+
+    <!-- H3 Headline -->
+    <g transform="translate(0, 220)">
+      <text x="0" y="20" font-size="20" font-weight="700" fill="#0b1220" letter-spacing="-0.02em">H3 Card Header: 20px / Bold</text>
+      <text x="0" y="38" font-size="12" font-family="'Inter'" fill="#5a6478">Font: Plus Jakarta Sans | Weight: 700 (Bold) | Letter-spacing: -2%</text>
+    </g>
+
+    <!-- Body text -->
+    <g transform="translate(0, 280)">
+      <text x="0" y="20" font-size="17" font-family="'Inter'" font-weight="400" fill="#2a3448">Body paragraph text: 17px / Regular. Safe line-height 1.65.</text>
+      <text x="0" y="38" font-size="12" font-family="'Inter'" fill="#5a6478">Font: Inter | Weight: 400 (Regular) | Color: #2a3448</text>
+    </g>
+  </g>
+
+  <!-- SECTION 3: BUTTON COMPONENTS -->
+  <g transform="translate(80, 800)">
+    <text x="0" y="20" font-size="18" font-weight="700" fill="#0b1220">3. Reusable Button Components</text>
+    
+    <!-- Primary Button -->
+    <g transform="translate(0, 50)">
+      <!-- Button Frame -->
+      <rect width="260" height="56" rx="28" fill="#ff6a2c" />
+      <text x="130" y="34" font-size="15" font-weight="600" fill="#ffffff" text-anchor="middle">Get My Free Estimate</text>
+      <!-- Meta details -->
+      <text x="130" y="80" font-size="12" font-weight="500" fill="#5a6478" text-anchor="middle">Primary: Sunset Orange (Solid)</text>
+    </g>
+
+    <!-- Secondary Dark Button -->
+    <g transform="translate(300, 50)">
+      <rect width="200" height="56" rx="28" fill="#0b1220" />
+      <text x="100" y="34" font-size="15" font-weight="600" fill="#ffffff" text-anchor="middle">Meet the team</text>
+      <text x="100" y="80" font-size="12" font-weight="500" fill="#5a6478" text-anchor="middle">Dark: Ink Slate (Solid)</text>
+    </g>
+
+    <!-- Ghost Button -->
+    <g transform="translate(540, 50)">
+      <rect width="200" height="56" rx="28" fill="none" stroke="rgba(11, 18, 32, 0.16)" stroke-width="1.5" />
+      <text x="100" y="34" font-size="15" font-weight="600" fill="#0b1220" text-anchor="middle">Request a quote</text>
+      <text x="100" y="80" font-size="12" font-weight="500" fill="#5a6478" text-anchor="middle">Ghost: Transparent + Outline</text>
+    </g>
+
+    <!-- Light Button -->
+    <g transform="translate(780, 50)">
+      <rect width="200" height="56" rx="28" fill="#ffffff" stroke="rgba(11, 18, 32, 0.08)" stroke-width="1" />
+      <text x="100" y="34" font-size="15" font-weight="600" fill="#0b1220" text-anchor="middle">Call (602) 773-5522</text>
+      <text x="100" y="80" font-size="12" font-weight="500" fill="#5a6478" text-anchor="middle">Light: White (Solid) + Shadow</text>
+    </g>
+  </g>
+
+  <!-- SECTION 4: HIGH-FIDELITY COMPONENT CARDS -->
+  <g transform="translate(80, 1020)">
+    <text x="0" y="20" font-size="18" font-weight="700" fill="#0b1220">4. Interactive Layout Cards (Framer Frames)</text>
+    
+    <!-- SERVICE CARD FRAME -->
+    <g transform="translate(0, 60)">
+      <!-- Outer Card Frame -->
+      <rect width="360" height="380" rx="18" fill="#ffffff" stroke="rgba(11,18,32,0.08)" stroke-width="1" />
+      <!-- Card Image Header -->
+      <rect width="360" height="150" fill="#1cb6c9" rx="0" />
+      <!-- Top Left border-radius crop fix inside Framer -->
+      <path d="M 0 18 Q 0 0 18 0 L 342 0 Q 360 0 360 18 L 360 150 L 0 150 Z" fill="#e84f12" opacity="0.15" />
+      <text x="180" y="85" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">[SERVICE HERO IMAGE PLACEHOLDER]</text>
+      
+      <!-- Card Icon Box -->
+      <rect x="24" y="174" width="48" height="48" rx="12" fill="#fff1ea" />
+      <circle cx="48" cy="198" r="12" fill="#ff6a2c" />
+      
+      <!-- Card Text -->
+      <text x="24" y="254" font-size="18" font-weight="700" fill="#0b1220">AC Repair</text>
+      <text x="24" y="280" font-size="14" font-family="'Inter'" fill="#5a6478">Cool air today — not next week. We</text>
+      <text x="24" y="300" font-size="14" font-family="'Inter'" fill="#5a6478">diagnose and fix any make or model,</text>
+      <text x="24" y="320" font-size="14" font-family="'Inter'" fill="#5a6478">usually in a single visit.</text>
+      
+      <text x="24" y="352" font-size="13" font-weight="700" fill="#e84f12">Learn more →</text>
+      
+      <text x="180" y="410" font-size="12" font-weight="500" fill="#5a6478" text-anchor="middle">Responsive Service Card Component</text>
+    </g>
+
+    <!-- ESTIMATE FORM CARD -->
+    <g transform="translate(430, 60)">
+      <rect width="440" height="660" rx="28" fill="#ffffff" stroke="rgba(11,18,32,0.08)" stroke-width="1" />
+      
+      <text x="32" y="52" font-size="24" font-weight="800" fill="#0b1220">Request a free estimate</text>
+      <text x="32" y="74" font-size="13" font-family="'Inter'" fill="#5a6478">Required fields are marked with orange dot.</text>
+
+      <!-- Input row 1 -->
+      <g transform="translate(32, 110)">
+        <text x="0" y="14" font-size="12" font-weight="600" fill="#0b1220">First name ●</text>
+        <rect x="0" y="24" width="170" height="48" rx="10" fill="#ffffff" stroke="rgba(11,18,32,0.16)" stroke-width="1" />
+        <text x="14" y="53" font-size="14" font-family="'Inter'" fill="#a0a8b5">Robert</text>
+      </g>
+      <g transform="translate(218, 110)">
+        <text x="0" y="14" font-size="12" font-weight="600" fill="#0b1220">Last name</text>
+        <rect x="0" y="24" width="190" height="48" rx="10" fill="#ffffff" stroke="rgba(11,18,32,0.16)" stroke-width="1" />
+        <text x="14" y="53" font-size="14" font-family="'Inter'" fill="#a0a8b5">Doe</text>
+      </g>
+
+      <!-- Input row 2 -->
+      <g transform="translate(32, 210)">
+        <text x="0" y="14" font-size="12" font-weight="600" fill="#0b1220">Phone ●</text>
+        <rect x="0" y="24" width="170" height="48" rx="10" fill="#ffffff" stroke="rgba(11,18,32,0.16)" stroke-width="1" />
+        <text x="14" y="53" font-size="14" font-family="'Inter'" fill="#a0a8b5">(602) 773-5522</text>
+      </g>
+      <g transform="translate(218, 210)">
+        <text x="0" y="14" font-size="12" font-weight="600" fill="#0b1220">Email ●</text>
+        <rect x="0" y="24" width="190" height="48" rx="10" fill="#ffffff" stroke="rgba(11,18,32,0.16)" stroke-width="1" />
+        <text x="14" y="53" font-size="14" font-family="'Inter'" fill="#a0a8b5">you@email.com</text>
+      </g>
+
+      <!-- Input row 3 -->
+      <g transform="translate(32, 310)">
+        <text x="0" y="14" font-size="12" font-weight="600" fill="#0b1220">Service needed ●</text>
+        <rect x="0" y="24" width="376" height="48" rx="10" fill="#ffffff" stroke="rgba(11,18,32,0.16)" stroke-width="1" />
+        <text x="14" y="53" font-size="14" font-family="'Inter'" fill="#0b1220">Select a service…</text>
+        <path d="M 346 44 L 350 48 L 354 44" fill="none" stroke="#0b1220" stroke-width="2" />
+      </g>
+
+      <!-- Text area -->
+      <g transform="translate(32, 410)">
+        <text x="0" y="14" font-size="12" font-weight="600" fill="#0b1220">Tell us more about your project</text>
+        <rect x="0" y="24" width="376" height="90" rx="10" fill="#ffffff" stroke="rgba(11,18,32,0.16)" stroke-width="1" />
+        <text x="14" y="50" font-size="14" font-family="'Inter'" fill="#a0a8b5">Briefly describe what's going on...</text>
+      </g>
+
+      <!-- Submit button -->
+      <g transform="translate(32, 535)">
+        <rect width="376" height="52" rx="26" fill="#ff6a2c" />
+        <text x="188" y="31" font-size="15" font-weight="600" fill="#ffffff" text-anchor="middle">Send My Request</text>
+      </g>
+      
+      <text x="32" y="618" font-size="11" font-family="'Inter'" fill="#5a6478">By submitting, you agree to be contacted by our company.</text>
+      
+      <text x="220" y="690" font-size="12" font-weight="500" fill="#5a6478" text-anchor="middle">Estimate Form Component Frame</text>
+    </g>
+  </g>
+</svg>
