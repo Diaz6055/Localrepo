@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Contact @@business_name | Free Estimates · 24/7 Service</title>
+<meta name="description" content="Get a free HVAC estimate from @@business_name. Call @@phone_number or send us a message — same-day service across @@city and surrounding areas.">
+<link rel="canonical" href="https://www.phoenixacexperts.com/contact/">
+@@include('head.html')
+</head>
+<body>
+
+@@include('topbar.html')
+@@include('header.html')
+
+<section class="page-hero">
+  <div class="container reveal" style="position:relative;">
+    <div class="crumbs"><a href="@@root_path/index.html">Home</a><span class="sep">/</span><span>Contact</span></div>
+    <span class="eyebrow"><span class="dot"></span>Get In Touch</span>
+    <h1>Tell us about your project — we'll handle the rest.</h1>
+    <p class="lead" style="max-width:62ch;">Fill out the form below and a dispatcher will reach out within one business hour. For after-hours emergencies, call us anytime at <a href="tel:@@phone_raw" style="color:var(--primary-deep);font-weight:600;">@@phone_number</a>.</p>
+  </div>
+</section>
+
+<section class="section" style="padding-top:24px;">
+  <div class="container">
+    <div class="detail-grid">
+      <div class="reveal">
+        @@include('estimate_form.html')
+      </div>
+
+      <aside class="sidebar reveal">
+        <div style="aspect-ratio: 16/10; overflow:hidden; border-radius: var(--radius); margin-bottom: 20px; box-shadow: var(--shadow-sm);">
+          <img src="@@root_path/assets/img/hvac_team.png" alt="@@business_name Team" style="width:100%; height:100%; object-fit:cover;">
+        </div>
+        <div class="side-card dark">
+          <h3>@@city HVAC dispatch</h3>
+          <p>Real people answer the phone — 24 hours a day, 7 days a week. Talk to a dispatcher in minutes.</p>
+          <a href="tel:@@phone_raw" class="phone">
+            <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72(12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+            <div><strong>@@phone_number</strong><small>24/7 emergency dispatch</small></div>
+          </a>
+        </div>
+
+        <div class="side-card">
+          <h3>Office &amp; Mailing Address</h3>
+          <p style="margin:0;">@@address<br>@@city, @@state @@zip</p>
+          <p class="mt-2" style="margin:16px 0 0;"><a href="mailto:@@email" style="color:var(--primary-deep);font-weight:600;">@@email</a></p>
+        </div>
+
+        <div class="side-card">
+          <h3>Hours of Operation</h3>
+          <ul class="side-list">
+            <li><a href="javascript:;">Monday – Friday<span style="margin-left:auto;color:var(--muted);font-weight:500;">7am – 9pm</span></a></li>
+            <li><a href="javascript:;">Saturday<span style="margin-left:auto;color:var(--muted);font-weight:500;">8am – 6pm</span></a></li>
+            <li><a href="javascript:;">Sunday<span style="margin-left:auto;color:var(--muted);font-weight:500;">8am – 6pm</span></a></li>
+            <li><a href="javascript:;">Emergency line<span style="margin-left:auto;color:var(--primary-deep);font-weight:600;">24 / 7</span></a></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- Service areas -->
+<section id="service-areas" class="section section-soft">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow"><span class="dot"></span>Service Areas</span>
+      <h2>HVAC service across @@city and surrounding areas</h2>
+      <p class="lead">Same-day appointments available in most ZIP codes — usually within a 4-hour window. Don't see your city? Just ask, we likely cover it.</p>
+    </div>
+
+    <!-- SERVICE_AREAS_GRID -->
+  </div>
+</section>
+
+@@include('footer.html')
+
+</body>
+</html>
